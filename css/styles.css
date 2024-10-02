@@ -10197,3 +10197,32 @@ section.resume-section .resume-section-content {
 .project-item a:hover {
     text-decoration: underline;
 }
+
+/* Custom hover effect for buttons */
+.btn-primary:hover {
+    background-color: #0062cc;
+    border-color: #005cbf;
+}
+
+/* Custom styles for smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Sticky navbar */
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+}
+
+/* Improve readability */
+body {
+    font-family: 'Muli', sans-serif;
+    line-height: 1.6;
+}
+
+/* Adjust section spacing */
+section {
+    padding: 60px 0;
+}
